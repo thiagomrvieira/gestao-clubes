@@ -12,10 +12,10 @@
                 </div>
                 <div class="form-group">
                     <label for="nomeAtleta"> Sexo </label>
-                    <select class="form-control"  id="sexo">
-                        <option> Masculino </option>
-                        <option> Feminino </option>
-                        <option> Outro </option>
+                    <select class="form-control"  id="sexo" name="sexo">
+                        <option value="Masculino" id="sexo" name="sexo"> Masculino </option>
+                        <option value="Feminino" id="sexo" name="sexo"> Feminino </option>
+                        <option value="Outro" id="sexo" name="sexo"> Outro </option>
                     </select>
                 </div>
                 <div class="form-group">
@@ -45,15 +45,15 @@
                 </div>
                 <div class="form-group">
                     <label for="sangue"> Tipo sanguíneo </label>
-                    <select class="form-control"  id="sangue">
-                        <option> O+ </option>
-                        <option> A+ </option>
-                        <option> B+ </option>
-                        <option> AB+ </option>
-                        <option> O- </option>
-                        <option> A- </option>
-                        <option> B- </option>
-                        <option> AB- </option>
+                    <select class="form-control"  id="sangue" name="sangue">
+                        <option value="O+" id="sangue"> O+ </option>
+                        <option value="A+" id="sangue"> A+ </option>
+                        <option value="B+" id="sangue"> B+ </option>
+                        <option value="AB+" id="sangue"> AB+ </option>
+                        <option value="O-" id="sangue"> O- </option>
+                        <option value="A-" id="sangue"> A- </option>
+                        <option value="B-" id="sangue"> B- </option>
+                        <option value="AB-" id="sangue"> AB- </option>
 
                     </select>
                 </div>

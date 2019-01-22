@@ -14,7 +14,8 @@ class ControladorAtleta extends Controller
      */
     public function index()
     {
-        return view('atleta');
+       $atletas = Atleta::all();
+        return view('atletas', compact('atletas'));
     }
 
     /**

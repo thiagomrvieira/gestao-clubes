@@ -24,8 +24,8 @@ class CreateAtletasTable extends Migration
             $table->char('email');
             $table->char('sangue');
             $table->string('plano');
-            $table->integer('clube_id')->unsigned();
-            $table->foreign('clube_id')->references('id')->on('clubes');
+            //$table->integer('clube_id')->unsigned();
+            //$table->foreign('clube_id')->references('id')->on('clubes');
             $table->timestamps();
         });
     }
